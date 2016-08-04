@@ -1,0 +1,4 @@
+To be updated to system: 
+
+1. Appointment list title, from "by Appointment Code" to "View All"
+2. Add the reason for the appointment on the view

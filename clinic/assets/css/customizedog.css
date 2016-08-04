@@ -1,0 +1,325 @@
+body {
+	background-color: rgba(176, 243, 200, 0.47);
+	height: auto;
+}
+
+
+/* ----- NAVBAR ELEMENTS ----- */
+
+/* THE NAVBAR CONTAINER */
+	.navbar-default {
+		background-color: rgba(96, 175, 118, 1);
+		border-color: rgba(125, 230, 152, 1);
+		height: 57px;
+		margin: 1px 0;
+		padding: 2.5px 0;
+	}
+	
+	/* A DROPDOWN MENU*/
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+		background-color: rgba(54, 142, 97, 1);
+		color: #ffffff;	
+	}
+
+	.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+		color: #ffffff;
+		background-color: rgba(54, 142, 97, 1);
+	}
+
+	/* TOGGLED NAVBAR - SMALL SCREENS*/
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: rgba(255, 255, 255, 0.36);
+	}
+
+	.navbar-default .navbar-toggle {
+		border: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #ffffff;
+	}
+
+	/* LOGO AREA */
+	.navbar-default .navbar-brand {
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 150%;
+	}
+
+	.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+		color: #ffffff;
+		font-size: 155%;
+	}	
+
+	/* ANCHOR ELEMENTS*/
+	.navbar-default .navbar-nav>li>a {
+		color: #ffffff;
+		background-color: rgba(96, 175, 118, 1);
+	}
+		.nav>li>a {
+				padding: 15px 15px;
+		}
+
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+		color: 	#ffffff;
+		background-color: rgba(54, 142, 97, 1);
+		border-bottom: 2px solid #ffffff;
+	}
+
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+		background-color: rgba(54, 142, 97, 1);
+		color: 	#ffffff;
+	}
+
+	/* DIFFERENT MEDIA QUERIES */
+	@media (max-width: 768px) {
+		.navbar-brand {
+			padding: 15px 5px;
+			margin-left: 15px;
+		}		
+	}
+
+	@media (min-width: 634px) and (max-width: 768px) {
+		.navbar-toggle {
+			margin-right: 15px;
+		}
+	}
+
+	@media (min-width: 259px) and (max-width: 280px) {
+		.navbar-brand {
+			font-size: 145% !important;
+		}
+	}
+
+	@media (min-width: 259px) {
+		.page-content {
+			padding: 0 !important;
+		}
+	}
+
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		padding: 0 2px !important;
+	}
+
+/* ----- THE END OF NAVBAR ELEMENTS ----- */
+
+/* ----- CONTAINERS ----- */
+
+.page-container {
+	margin: 70px auto 10px auto;
+}
+
+.page-content {
+	padding: 10px;
+	background-color: none;
+}
+
+.element-container {
+	padding: 10px;
+	background-color: #ffffff;
+	margin: 15px 0;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+
+	-moz-box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.16);
+	box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.16);
+	z-index: 999999;	
+}
+
+@media (max-width: 768px) {
+	.page-container {
+		margin: 54px auto;
+	}
+
+	.container {
+		padding: 0 3px 0 3px;
+	}
+}
+
+/* ----- PAGE ELEMENT ----- */
+
+.frame {
+	background-color: #f8f8f8;
+	
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	
+	padding: 8px;
+
+	-webkit-box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.16);
+	box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.16);	
+}
+
+
+/* ----- LOGIN ELEMENTS ----- */
+
+.fget-pword-link {
+	float:right; 
+	font-size: 80%; 
+	font-weight: normal !important;
+	position: relative; 
+	text-decoration: none !important;	
+}
+
+.login-main-slider {
+	margin: 100px;
+}
+
+.login-loginbox {
+	margin-top: 50px;
+}
+
+.login-errormsg {
+	color: red; 
+	text-shadow: 1px 1px 0px #000000;	
+}
+
+.login-panel-body {
+	padding-top: 30px;
+}
+
+.panel-title {
+	font-weight: bold;
+}
+
+.panel-info {
+	border: none;
+}
+
+/* ----- ABOUT US PAGE ----- */
+
+.about-us-content {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+		.italicized {
+			font-style: italic;
+		}
+
+.about-us-frame {
+	background-color: #ffffff;
+}
+
+/* ----- PANEL COMPONENT ----- */
+
+.panel-default {
+	width: auto;
+	margin: 5px;
+
+	-webkit-box-shadow: 1px 1px 4px #605B5B;
+	-moz-box-shadow: 1px 1px 4px #605B5B;
+	box-shadow: 1px 1px 4px #605B5B;	
+}
+
+.panel-heading {
+	text-align: center;
+	color: #ffffff !important;
+	font-weight: bold;
+	font-size: 110%;
+	background-color: rgba(64, 162, 70, 0.88) !important;
+	
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+
+.panel-body {
+	text-align: center;
+}
+
+.panel-info>.panel-heading {
+	border: none;
+}
+
+/* ----- PATIENT PROFILE VIEW ----- */
+.pprofile-name {
+	color: 	#ffffff;
+	font-weight: bold;
+}
+
+/* ----- FOR PAGES WHICH USE element-container(to remove the top margin) ----- */
+.nomargin-element-container {
+	margin: 0;
+}
+
+
+/* ----- MODAL ELEMENTS ----- */
+.modal-backdrop {
+	z-index: -10;
+}
+
+.modal-btn-grp {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	margin: 10px 0;
+}
+
+	.modal-btn-grp li {
+		margin: 0 2px 0 0;
+	}
+
+/* ----- CALENDAR ELEMENTS ----- */
+
+	.calendar{
+	font-family: "Helvetica Neue Bold", arial, helvetica, sans-serif;
+	font-size: 100%;
+	margin: 10px;
+	color: #333;
+	background-color: #cecece;
+		/*font-family:Arial;font-size 12px;*/
+		}
+		table.calendar{
+		
+			margin:auto; border-collapse: collapse;
+			
+		}
+		.calendar .days td{
+		 width: 150px; height:100px; paddings: 5px;
+		
+			
+	position: relative;
+	
+	background-color: #fff;
+		border-radius: 0.6em;
+	box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+	overflow: hidden;
+		}
+		
+		.calendar .days td:hover{
+		cursor: pointer;
+		background-color: green;
+		 }
+		 
+		.calendar .day_num{
+		 display: block;
+		width: 100%;
+		font-size: 3em;
+		font-weight: bold;
+		font-style: normal;
+		text-align: center;
+			}
+			
+			
+		.calendar .highlight{
+		  font-weight: bold; color: #00F;
+		}
+		
+		.calendar.weekday{
+			background-color:red;
+			}
+		
+/* ----- RADIOS / CHECKBOXES ----- */
+.radio, .checkbox {
+	margin-top: 0;
+}
+
+label.error {
+	color:red;
+}

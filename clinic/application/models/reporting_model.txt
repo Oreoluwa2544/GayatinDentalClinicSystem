@@ -1,0 +1,7 @@
+<?php
+class Reporting extends CI_Model{
+
+
+
+
+?>

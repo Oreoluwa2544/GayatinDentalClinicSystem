@@ -1,0 +1,57 @@
+1. displayed the chief complaint and other findings on the view: view_treatment
+
+// Allowed the viewing of the "Date Added" element to the allergies, chronic ailments, and drugs taken on the patient profile
+2. added the "dateadded" column to the allergies, chronic ailments, and drugs taken tables
+3. updated the create_patient() and update_patient() functions on the patient controller
+	- only the "dateadded" data was added to the arrays which were passed to the patient_model
+
+
+CHECKED FOR RESPONSIVENESS (responviness is only for 674px width @ minimum):
+====================================================================
+NOTE: 
+
+Width for element container should be set to col-xs-12 columns
+check all the tables for responsiveness, especially large tables
+====================================================================
+
+==> customized.css
+	changed the navbar-brand elements to accomodate logo
+	added the .add-btn class styles
+	added the .large-tables class styles
+
+==> GUEST
+	homepage
+	calendar
+	about us - edited view
+
+==> ADMIN
+	login
+
+	~ Appointments - add treatment type of patient to the view *
+		by date
+		view all
+
+		weekend appointment
+		weekday appointment
+
+	~ Patient Profiles
+		list
+		add
+		edit
+			removed the resizing of textareas
+
+		profile:
+			teeth profile
+			add payment
+			payment history
+
+
+	~ Clinic Services - DONE
+		list
+		add service
+		edit
+
+	~ User Accounts - DONE
+		list
+		add
+

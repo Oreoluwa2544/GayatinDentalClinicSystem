@@ -1,0 +1,19 @@
+To be updated to system: 
+
+1. Appointment list title, from "by Appointment Code" to "View All"
+2. Add the reason for the appointment on the view
+3. Update Add Treatment Record View
+4. Change the color of the status of the appointments
+5. Updated CSS
+	customized.css:
+		navigation bar
+		login page
+		homepage and login page backgrounds
+	bootstrap.min.css:
+		border-color for navbar commented out
+6. Updated login view - change button to "primary"
+7. Udpated header view - logo navigation for guest/admin
+8. Updated homepage view
+
+
+1px 1px 3px 0px rgba(0, 0, 0, 0.6)
